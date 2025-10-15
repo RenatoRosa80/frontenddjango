@@ -6,3 +6,6 @@ class Pessoa(models.Model):
     idade = models.IntegerField()
     def __str__(self):
         return f"{self.nome} {self.idade}"
+
+
+
